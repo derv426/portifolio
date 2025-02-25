@@ -1,0 +1,44 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Tons de Preto */
+  --preto-claro: #333333;
+  --preto-medio: #4d4d4d;
+  --preto-escuro: #1a1a1a;
+
+  /* Tons de Branco */
+  --branco-claro: #f0f0f0;
+  --branco-medio: #dcdcdc;
+  --branco-escuro: #bfbfbf;
+
+  /* Tons de Azul */
+  --azul-claro: #4f9cd8;
+  --azul-medio: #1d7db7;
+  --azul-escuro: #0a5d6d;
+
+  /* Tons de Cinza */
+  --cinza-claro: #cccccc;
+  --cinza-medio: #999999;
+  --cinza-escuro: #666666;
+}
+
+
+body{
+  background-color: #131314;
+  font-family: 'Poppins', sans-serif;
+}
+
+#particles-js {
+  transform: rotate(0deg);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
