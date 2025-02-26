@@ -13,7 +13,7 @@
   --preto-escuro: #1a1a1a;
 
   /* Tons de Branco */
-  --branco-claro: #f0f0f0;
+  --branco-claro: #ffffff;
   --branco-medio: #dcdcdc;
   --branco-escuro: #bfbfbf;
 
@@ -41,4 +41,82 @@ body{
   position: absolute;
   top: 0;
   left: 0;
+  z-index: -1;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  padding: 11px 10px;
+}
+
+.logo h1 a{
+  color: var(--branco-claro);
+  text-decoration: none;
+}
+.dev-destaque{
+  color: var(--azul-medio);
+}
+
+.list-links{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links{
+  color: var(--branco-claro);
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.5s ease;
+}
+
+.nav-links:hover{
+  color: var(--cinza-claro);
+}
+
+.cv-downloand{
+  width: 102px;
+  padding: 9px 8px;
+  background-color: var(--azul-medio);
+  color: var(--preto-escuro);
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.6s all;
+}
+
+.cv-downloand:hover{
+  background-color: var(--preto-escuro);
+  color: var(--azul-medio);
+}
+
+.container-contenct{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title{
+  color: var(--branco-claro);
+  font-size: 3.8rem;
+}
+
+.paragraph-dev-web{
+  color: var(--cinza-claro);
+  text-align: center;
+  font-size: 1rem;
+}
+
+footer p{
+  color: var(--branco-claro);
+  text-align: center;
+}
+
+.derv-desevolper{
+  color: var(--azul-medio);
 }

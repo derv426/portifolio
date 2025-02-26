@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Carregamento</title>
+    <style>
+        /* Estiliza a tela de carregamento */
+
+
+        /* Oculta o conteúdo da página até o carregamento terminar */
+        #content {
+            display: none;
+            text-align: center;
+            padding: 50px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tela de carregamento -->
+    <div id="loading-screen">
+        <div class="loading-container">
+            <div class="spinner"></div>
+            <p id="loading-text">Carregando...</p>
+        </div>
+    </div>
+
+    <!-- Conteúdo da página -->
+    <div id="content">
+        <h1>Bem-vindo ao meu site!</h1>
+        <p>O conteúdo foi carregado com sucesso.</p>
+    </div>
+
+    <script>
+        // Simula o carregamento da página
+        window.onload = function() {
+            setTimeout(() => {
+                document.getElementById("loading-text").textContent = "Concluído!";
+                
+                // Aguarda mais 2 segundos antes de exibir o conteúdo e ocultar o loading
+                setTimeout(() => {
+                    document.getElementById("loading-screen").style.display = "none";
+                    document.getElementById("content").style.display = "block";
+                }, 2000);
+            }, 2000); // Tempo para mostrar "Carregando..."
+        };
+    </script>
+
+</body>
+</html>
