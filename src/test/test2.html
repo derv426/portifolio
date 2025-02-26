@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão que muda texto</title>
+</head>
+<body>
+
+    <p id="texto">Texto original</p>
+    <button id="meuBotao">Clique para mudar</button>
+
+    <script>
+      let texto = document.getElementById('texto')
+      let button = document.getElementById('meuBotao')
+
+      function AlterarTexto(){
+        texto.innerHTML = 'Deixa o Like!'
+      }
+
+      button.addEventListener('click', AlterarTexto)
+    </script>
+
+</body>
+</html>
