@@ -1,81 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/styles/import/import.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="shortcut icon" href="public/icons8-globo-96.png" type="image/x-icon">
+  <title>Derv Developer</title>
 </head>
 <body>
 
- <div id="loading-screen">
+  <!-- Tela de carregamento -->
+  <div id="loading-screen">
     <div class="loading-container">
         <div class="spinner"></div>
         <p id="loading-text">Carregando...</p>
     </div>
-</div>
+  </div>
 
-<div id="particles-js"></div>
+  <!-- Partículas de fundo -->
+  <div id="particles-js"></div>
 
-<div class="container" id="container">
-  <header>
-    <nav class="nav-bar">
-      <div class="logo">
-        <h1>
-          <a href="index.html">
+  <div class="container" id="container">
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <h1>
+            <a href="index.html">
+              DERV <strong class="dev-destaque">| DEV</strong>
+            </a>
+          </h1>
+        </div>
+        <div class="links">
+          <ul class="list-links">
+            <li class="nav-item"><a href="#" class="nav-links">Home</a></li>
+            <li class="nav-item"><a href="src/pages/sobre.html" class="nav-links">Sobre</a></li>
+            <li class="nav-item"><a href="#" class="nav-links">Projetos</a></li>
+            <li class="nav-item"><a href="#" class="nav-links">Contatos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <div class="container-contenct">
+        <div class="contenct">
+          <h1 class="title">
             DERV <strong class="dev-destaque">| DEV</strong>
-          </a>
-        </h1>
+          </h1>
+          <p class="paragraph-dev-web">Desenvolvedor Web</p>
+          <div class="button-cv">
+            <button class="cv-downloand" id="cv-downloand">Baixar CV</button>
+          </div>
+        </div>
       </div>
-      <div class="links">
-        <ul class="list-links">
-          <li class="nav-item">
-            <a href="#" class="nav-links">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-links">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-links">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-links">Contatos</a>
-          </li>
-        </ul>
-      </div>
-      <div class="button-cv">
-        <button class="cv-downloand" id="cv-downloand">Baixar CV</button>
-      </div>
-    </nav>
-  </header>
+    </main>
+  </div>
 
+  <!-- Rodapé -->
+  <footer>
+    <p>2025 &copy; Todos os Direitos Reservados para <strong class="derv-desevolper">DERV Developer</strong></p>
+  </footer>
 
-  <main>
-    <div class="container-contenct">
-      <div class="contenct">
-        <h1 class="title">
-          DERV <strong class="dev-destaque">| DEV</strong>
-        </h1>
-        <p class="paragraph-dev-web" id="paragraph-dev-web"></p>
-      </div>
-    </div>
-  </main>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js" defer></script> 
+  <script src="src/javascript/background-paticles.js" defer></script>
+  <script src="src/javascript/carregamento.js" defer></script>
+  <script src="src/javascript/digite.js" defer></script>
+  <script src="src/javascript/downloand.js" defer></script>
+  <script src="src/javascript/header.js" defer></script>
 
-
-<footer>
-  <p>2025 &copy; Todos os Direitos Reservador para <strong class="derv-desevolper">DERV Desevolper</strong></p>
-</footer>
-
-</div>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script> 
-<script src="src/javascript/background-paticles.js"></script>
-<script src="src/javascript/carregamento.js"></script>
-<script src="src/javascript/digite.js"></script>
-<script src="src/javascript/downloand.js"></script>
-<script src="src/javascript/header.js"></script>
 </body>
 </html>

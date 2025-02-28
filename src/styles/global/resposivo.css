@@ -1,0 +1,24 @@
+
+@media screen and (max-width: 768px){
+
+  .logo h1 a{
+    font-size: 17px;
+  }
+
+  .nav-links{
+    font-size: 10px;
+  }
+
+  .links{
+    padding: 0 4px;
+  }
+
+  .cv-download{
+    width: 10px;
+  }
+
+  footer p{
+    font-size: 11px
+  }
+
+}
