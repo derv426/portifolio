@@ -206,3 +206,63 @@ footer p{
   color: var(--azul-medio);
 }
 
+.container-content-sobre{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.user-you{
+  width: 30vw;
+  padding: 2px px;
+}
+
+.quem-sou-title{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--branco-claro);
+  padding: 4px;
+}
+
+.quem-sou-paragraph{
+  font-size: 0.9rem;
+  color: var(--cinza-claro);
+  padding:2px 7px;
+}
+
+.quem-sou-paragraph strong{
+  color: var(--azul-claro);
+}
+
+
+.container-icons {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+  margin-top: 20px; 
+}
+
+.icons-skills {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  gap: 20px; 
+}
+
+.title-skills{
+  color: var(--branco-claro);
+  font-size: 2.4rem;
+}
+
+.container-icon-1 i,.container-icon-2 i,.container-icon-3 i{
+  font-size: 2rem;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+}
+
+.container-icon-1 i:hover, .container-icon-2 i:hover, .container-icon-3 i:hover {
+  color: var(--azul-medio);
+  transform: scale(1.1);
+}

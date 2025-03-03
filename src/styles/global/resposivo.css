@@ -21,4 +21,12 @@
     font-size: 11px
   }
 
+  .user-you{
+    display: none;
+  }
+  
+  .quem-sou-paragraph{
+    font-size: 0.7rem;
+  }
+
 }
