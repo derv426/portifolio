@@ -210,7 +210,7 @@ footer p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100vh;
+  height: 75vh;
 }
 
 .user-you{
@@ -260,9 +260,37 @@ footer p{
   font-size: 2rem;
   color: #333;
   transition: all 0.5s ease-in-out;
+  gap: 45px;
 }
 
 .container-icon-1 i:hover, .container-icon-2 i:hover, .container-icon-3 i:hover {
   color: var(--azul-medio);
   transform: scale(1.1);
+}
+
+
+.container-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px; /* Reduz o espaçamento vertical */
+}
+
+.container-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons-skills {
+  display: flex;
+  gap: 2px; /* Diminui ainda mais o espaçamento entre os ícones */
+}
+
+.icons-skills div {
+  padding: 2px; /* Reduz o espaçamento interno */
+  margin: 0; /* Remove margens extras */
+}
+
+i {
+  font-size: 35px; /* Ajusta o tamanho do ícone */
 }
