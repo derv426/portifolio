@@ -1,0 +1,360 @@
+/* font do projeto */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --color-background: #131314;
+  --color-text: #fff;
+  --color-text-segundaria: #000;
+  --color-text-terciaria: #ccc;
+  --color-border: #424242;
+  --color-border-segundaria: #484848;
+  --color-links: #002e99;
+  --color-icon: #0250f7;
+  --background-sociais: #353535;
+}
+
+
+
+body{
+  background-color: var(--color-background);
+  overflow: hidden;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a{
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.logo strong{
+  color: var(--color-links);
+}
+
+.nav-list{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links{
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nav-links:hover{
+  color: var(--color-icon);
+  transition: color 0.5s;
+}
+
+.menu-icon i{
+  color: #fff;
+}
+
+.menu-icon i{
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 4px 15px;
+  text-decoration: none;
+}
+
+.menu-icon i:hover{
+  color: var(--color-icon);
+  transition: 0.5s;
+}
+
+.close-icon i{
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 4px 15px;
+  text-decoration: none;
+}
+
+.close-icon i:hover{
+  color: var(--color-icon);
+  transition: 0.5s;
+}
+
+
+.main-container{
+  padding: 35px 0;
+}
+
+.text-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  gap:-40px;
+}
+
+.text-primery{
+  color: var(--color-text);
+  font-size: 3rem;
+}
+
+.portifolio{
+  color: var(--color-icon);
+}
+
+.user-you{
+  width: 390px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 14px #484848;
+}
+
+
+.text-contanct{
+  font-size: 1.4rem;
+  padding: 10px;
+}
+
+.container-contanct-links, .text-contanct{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.discord i{
+  color: #fff;
+  text-decoration: none;
+}
+
+.discord i:hover{
+  color: #7289DA;
+  transition: color 0.4s;
+}
+
+.github i{
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.github i:hover{
+  color: #181717;
+  transition: color 0.4s;
+}
+
+.instagram i{
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.instagram i:hover{
+  color: #E1306C;
+  transition: color 0.4s;
+}
+
+.text-contanct h3{
+  color: var(--color-text);
+}
+
+
+.content-links{
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 600;
+  gap: 20px;
+}
+
+
+.list-links ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  position: relative;
+}
+
+
+.text-sobre{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 10px;
+}
+
+.text-contenct-sobre{
+  padding: 4px 9px;
+}
+
+.title-sobre{
+  color: var(--color-text);
+  font-size: 3.6rem;
+}
+
+
+.quem-sou-img{
+  box-shadow: 3px 4px 9px #484848;
+  padding: 6px 0;
+}
+
+.explication-sobre{
+  color: var(--color-text-terciaria);
+  font-size: 1.1rem;
+}
+
+.html-css-focus,.js,.name-user{
+  color: var(--color-icon);
+}
+
+.copy-text{
+  color: var(--color-text-terciaria);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+  gap: 5px;
+  font-size: 1rem;
+}
+
+.dev-derv{
+  color: var(--color-border);
+  text-decoration: none;
+}
+
+.dev-derv:hover{
+  color: var(--color-links);
+  transition: color 0.4s;
+}
+
+.text-contenct-contanct{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icon-zap{
+  background-color: var(--background-sociais);
+  padding: 10px 22px;
+  border-radius: 60%;
+  font-size: 2.3rem;
+}
+
+.whatsapp a{
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.whatsapp a:hover{
+  color: #25d366;
+  transition: color 0.4s;
+}
+
+
+.text-contanct{
+  color: var(--color-text);
+  font-size: 2.3rem;
+}
+
+.paragraph-contanct{
+  color: var(--color-text-terciaria);
+  font-size: 1.2rem;
+}
+
+.container-contanct{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  gap: 25px;
+}
+
+.icon-email{
+  background-color: var(--background-sociais);
+  padding: 10px 22px;
+  border-radius: 60%;
+  font-size: 2.3rem;
+}
+
+
+
+.icon-email a{
+  color: var(--color-text);
+  text-decoration: none;
+  gap: 10px;
+}
+
+.icon-email a:hover{
+  color: red;
+  transition: color 0.4s;
+}
+
+
+.text-breve{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10%;
+}
+
+.text-project{
+  color: var(--color-text);
+  font-size: 3.8rem;
+  font-weight: 600;
+}
+
+.paragraph-project{
+  color: var(--color-text-terciaria);
+  font-size: 1.2rem
+}
+
+
+.footer-links .copy-text{
+  font-size: 1.1rem;
+}
+    /* Estilos personalizados para o widget de tradução */
+    #google_translate_element {
+      margin: 20px 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    /* Estilo do campo select (menu de idiomas) */
+    select {
+      font-size: 14px;
+      padding: 8px;
+      border-radius: 5px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      color: #333;
+      cursor: pointer;
+      width: 200px;
+      transition: border-color 0.3s ease;
+    }
+
+    select:focus {
+      outline: none;
+      border-color: #4CAF50; /* Cor de destaque */
+    }
+
+    /* Estilo do botão de tradução */
+    .goog-te-gadget {
+      display: none; /* Ocultando o botão de tradução padrão */
+    }
+
+    .goog-te-gadget{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }

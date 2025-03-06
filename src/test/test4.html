@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .container-project {
+  display: flex;
+  flex-direction: column; /* Deixa os elementos em coluna (um abaixo do outro) */
+  align-items: center; /* Centraliza os itens na horizontal */
+  gap: 20px; /* Adiciona um espaçamento entre os projetos */
+  margin-top: 20px;
+}
+
+.project-contenct-1 {
+  background-color: #f8f9fa; /* Cor de fundo suave */
+  padding: 20px;
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave */
+  text-align: center;
+  width: 90%; /* Largura ajustável */
+  max-width: 400px; /* Define um limite de largura */
+}
+
+.project-contenct-1 img {
+  width: 100%; /* Faz a imagem ocupar toda a largura do card */
+  border-radius: 8px; /* Bordas arredondadas na imagem */
+}
+
+.button-ver-project {
+  background-color: #007bff; /* Azul vibrante */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.button-ver-project a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.button-ver-project:hover {
+  background-color: #0056b3; /* Efeito hover mais escuro */
+}
+
+</style>
+<body>
+  <div class="container-project">
+    <div class="project-contenct-1">
+      <h3>Projetor de Contador</h3>
+      <img src="../assets/screenshots/banners/project1.PNG" alt="">
+      <button class="button-ver-project">
+        <a href="../project/one project/index.html">Ver Projeto</a>
+      </button>
+    </div>
+  
+    <div class="project-contenct-1">
+      <h3>Outro Projeto</h3>
+      <img src="../assets/screenshots/banners/project2.PNG" alt="">
+      <button class="button-ver-project">
+        <a href="../project/two project/index.html">Ver Projeto</a>
+      </button>
+    </div>
+  </div>
+  
+</body>
+</html>
