@@ -70,7 +70,7 @@
     interactivity: {
       detect_on: "window",
       events: {
-        onhover: {
+        onhover: { 
           enable: true,
           mode: "repulse"
         },

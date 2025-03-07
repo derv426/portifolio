@@ -1,0 +1,25 @@
+/* 🔹 Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* 🔹 Centraliza o formulário sem ocupar a tela toda */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f9;
+    padding: 50px 20px; /* Adiciona espaço ao redor */
+}
+
+
+
+/* 🔹 Responsividade para telas menores */
+@media (max-width: 480px) {
+    .input-group {
+        grid-template-columns: 1fr;
+    }
+}

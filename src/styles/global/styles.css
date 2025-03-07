@@ -165,6 +165,7 @@ body{
   font-weight: bold;
   font-size: 14px;
   border-radius: 8px;
+  border: none;
   cursor: pointer;
   transition: 0.6s all;
 }
@@ -330,7 +331,7 @@ i {
 }
 
 .button-ver-project {
-  background-color: #007bff;
+  background-color: var(--azul-claro);
   color: var(--branco-claro);
   padding: 10px 15px;
   border: none;
@@ -356,4 +357,119 @@ i {
 
 .footer-space{
   padding: 19px;
+}
+
+.container-contatos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-contanct{
+  font-size: 1.6rem;
+  color: var(--branco-claro);
+  text-align: center;
+}
+
+.paragraph-contact{
+  font-size: 1rem;
+  color: var(--cinza-claro);
+}
+
+.contenct-contanct{
+  padding: 15px;
+}
+
+.contenct-contatos{
+  display: flex;
+  gap: 12px;
+}
+
+.card-style-contanct{
+  background-color: rgb(29, 29, 29);
+  padding: 19px 22px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.card-style-contanct a{
+  color: var(--branco-claro);
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.card-style-contanct a:hover{
+  color: var(--azul-claro);
+}
+
+/* 🔹 Container do formulário */
+.container-input-contact {
+  background: rgb(24, 24, 24);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  min-width: 350px; /* Define um tamanho mínimo */
+}
+
+.container-geral{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* 🔹 Estilização dos labels */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: var(--branco-claro);
+}
+
+/* 🔹 Estilização dos inputs e textarea */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* 🔹 Layout responsivo para os inputs */
+form {
+  display: grid;
+  gap: 15px;
+}
+
+.input-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* 🔹 Estilização do botão de envio */
+.btn-submit {
+  background: #007BFF;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+  background: #0056b3;
 }
