@@ -10,6 +10,6 @@ window.onload = function () {
       setTimeout(() => {
           loadingScreen.style.display = "none";
           container.style.display = "block";
-      }, 2000);
-  }, 2000);
+      }, 1000);
+  },1000);
 };
