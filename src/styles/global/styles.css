@@ -200,6 +200,7 @@ body{
 footer p{
   color: var(--branco-claro);
   text-align: center;
+  padding: 10px;
 }
 
 .derv-desevolper{
@@ -215,7 +216,7 @@ footer p{
 
 .user-you{
   width: 30vw;
-  padding: 2px px;
+  padding: 2px 35px;
 }
 
 .quem-sou-title{
@@ -260,7 +261,8 @@ footer p{
   font-size: 2rem;
   color: #333;
   transition: all 0.5s ease-in-out;
-  gap: 45px;
+  padding: 4px;
+  cursor: pointer;
 }
 
 .container-icon-1 i:hover, .container-icon-2 i:hover, .container-icon-3 i:hover {
@@ -356,7 +358,7 @@ i {
 }
 
 .footer-space{
-  padding: 19px;
+  padding: 27px;
 }
 
 .container-contatos{
@@ -437,7 +439,8 @@ input, textarea {
   border-radius: 5px;
   font-size: 14px;
   transition: 0.3s ease-in-out;
-}
+  background-color: #131314;
+} 
 
 input:focus, textarea:focus {
   border-color: #007BFF;
